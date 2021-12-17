@@ -3,9 +3,9 @@ import AboutInterestsWrapper from "./components/AboutInterestsWrapper";
 import Footer from "./components/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCheckSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faEnvelope, faCheckSquare);
+library.add(fab, faEnvelope);
 
 function App() {
   return (
